@@ -1,0 +1,24 @@
+{
+	"variants": {
+	  "snowy=false": [
+		{
+		  "model": "gardening_decor:block/decor_grass_block_3"
+		},
+		{
+		  "model": "gardening_decor:block/decor_grass_block_3",
+		  "y": 90
+		},
+		{
+		  "model": "gardening_decor:block/decor_grass_block_3",
+		  "y": 180
+		},
+		{
+		  "model": "gardening_decor:block/decor_grass_block_3",
+		  "y": 270
+		}
+	  ],
+	  "snowy=true": {
+		"model": "minecraft:block/grass_block_snow"
+	  }
+	}
+  }

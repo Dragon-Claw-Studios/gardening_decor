@@ -1,0 +1,136 @@
+{
+	"multipart": [
+	  {
+		"when": {
+		  "up": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_ceiling"
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_ceiling"
+		}
+	  },
+	  {
+		"when": {
+		  "north": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall"
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall"
+		}
+	  },
+	  {
+		"when": {
+		  "west": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 270
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 270
+		}
+	  },
+	  {
+		"when": {
+		  "south": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 180
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 180
+		}
+	  },
+	  {
+		"when": {
+		  "east": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 90
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_wall",
+		  "y": 90
+		}
+	  },
+	  {
+		"when": {
+		  "down": "true"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_floor"
+		}
+	  },
+	  {
+		"when": {
+		  "up": "false",
+		  "north": "false",
+		  "west": "false",
+		  "south": "false",
+		  "east": "false",
+		  "down": "false"
+		},
+		"apply": {
+		  "model": "gardening_decor:block/decor_ivy_plant_1_floor"
+		}
+	  }
+	]
+  }

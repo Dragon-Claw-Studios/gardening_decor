@@ -1,0 +1,26 @@
+Mod Overview:
+
+Name of mod (Gardening Decor).
+Minecraft version (1.20.1).
+Primary features or focus areas (flowers, grasses, bushes).
+
+Development Environment:
+Using Architectury API for cross-platform development of Forge and Fabric).
+
+Main Classes:
+com.dragonclaw.gardening_decor.GardeningDecor
+com.dragonclaw.gardening_decor.GardeningDecorClient
+com.dragonclaw.gardening_decor.GardeningDecorExpectPlatform
+
+Block Classes:
+package com.dragonclaw.gardening_decor.common.blocks.DecorGrassBlock;
+package com.dragonclaw.gardening_decor.common.blocks.DecorIvyPlant;
+
+Registry of items, blocks etc:
+com.dragonclaw.gardening_decor.common.registry.ModBlocks
+com.dragonclaw.gardening_decor.common.registry.ModColors
+com.dragonclaw.gardening_decor.common.registry.ModItems
+com.dragonclaw.gardening_decor.common.registry.RenderTypes
+
+Current goal:
+Implement an ivy plant with growth mechanics, including being placeable on the floor, wall, and ceiling, with 3 model variants for each state.
